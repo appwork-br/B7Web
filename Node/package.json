@@ -5,13 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node dist/index.js",
-    "watch-ts": "tsc -w"
+    "start-dev": "nodemon src/server.ts"
   },
   "author": "Daniel Oliveira",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^17.0.12"
+    "@types/node": "^17.0.12",
+    "@types/validator": "^13.7.1"
   },
-  "exclude": ["node_modules"]
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "express": "^4.17.2",
+    "validator": "^13.7.0"
+  }
 }
