@@ -1,0 +1,11 @@
+instalei as 3 rotinas no CMD
+    npm install -g typescript
+    npm install -g nodemon
+    npm install express
+    npm install mustache-express
+    npm install --save-dev @types/mustache-express
+
+Plugins instalados
+    Mustache Syntax
+
+    
